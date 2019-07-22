@@ -1,6 +1,8 @@
 #include <iostream>
+#include "controller.h"
 
 int main()
 {
-	std::cout << "Hello World!" << std::endl;
+	Controller controller;
+	controller.start();
 }
